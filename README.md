@@ -4,25 +4,25 @@
 ------------------------
 1-Linear Search 
 ------------------
-                --> Searching an element from a given array of size N using linear search requires O(N) time such that we need to traverse complete array linearly.
-                    Best Case(When the item to be searched is in 1st position)-O(1) time such that returning without traversing remaining array if found.
-                    Average and Worst Case(When element is in the last index of array) O(N) time.
+        --> Searching an element from a given array of size N using linear search requires O(N) time such that we need to traverse complete array linearly.
+            Best Case(When the item to be searched is in 1st position)-O(1) time such that returning without traversing remaining array if found.
+            Average and Worst Case(When element is in the last index of array) O(N) time.
                                       
 2-Binary Search
 ----------------
-          --> For using binary search the array should be sorted. Then the searched item is matched with the middle elememnt of the array if found return 
-              else check to the left half or right half accordingly.
-              Binary Search is better than linear as it divide the problem into half recursively.
-              Time Complexity of binary search is O(logN).
+        --> For using binary search the array should be sorted. Then the searched item is matched with the middle elememnt of the array if found return 
+            else check to the left half or right half accordingly.
+            Binary Search is better than linear as it divide the problem into half recursively.
+            Time Complexity of binary search is O(logN).
               
 #Basic Sort Algorithms
 ------------------
 1-Selection Sort
 ------------------
-         --> Selection Sort finds the next small element in every iteration and puts the element in beginning after the sorted elements.
-             It is an inplace algo such that does not require any additional space.
-             It requires less number of swapping-O(N)
-             Best, Average, and Worst Case- O(N^2).
+        --> Selection Sort finds the next small element in every iteration and puts the element in beginning after the sorted elements.
+            It is an inplace algo such that does not require any additional space.
+            It requires less number of swapping-O(N)
+            Best, Average, and Worst Case- O(N^2).
        
 2-Bubble Sort
 --------------
